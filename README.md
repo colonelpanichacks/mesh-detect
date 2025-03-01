@@ -77,3 +77,4 @@ Ensure both the heltec and your receiver node are on the same channel. Set the p
 Credit: Firmware for RID and flasher based on work by cemaxecuter aka alphafox02. Modded with help of Colonel Panic. 
 
 - Original alphafox RID T-halow: https://github.com/alphafox02/T-Halow
+- Thank you to Luke Switzer for the work on this project: https://github.com/lukeswitz/
