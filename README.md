@@ -1,12 +1,13 @@
-# Mesh Detect Flasher
+# Mesh-Detect
 <p align="center">
   <img src="https://raw.githubusercontent.com/lukeswitz/T-Halow/refs/heads/master/firmware/ColonelPanicWiFiRID/img/art_purps.svg" alt="T-Halow WiFi RID Image" width="100%" max-width="600px" />
 </p>
 
-**For the board by Colonel Panic:
+*Mesh Detect board:
 [Tindie](https://www.tindie.com/products/colonel_panic/mesh-detect-2/)**
 
-This script automates flashing different firmware to the Colonel Panic Mesh Detect board.
+*Mesh Detect flasher by Luke Switzer
+[Flasher](https://github.com/lukeswitz/T-Halow/blob/96936fd8c1d79d25ee19c263b13defecff89b3c5/firmware/ColonelPanicWiFiRID/Readme.md)
 
 ## Mesh Detect Firmwares
 
@@ -20,39 +21,6 @@ Scan WiFi and BT to form a baseline and alert to new devices. Flash via Aurduino
 - [WiFi Drone ID Detection FW](https://github.com/lukeswitz/T-Halow/tree/wifi_rid_mesh/firmware/firmware_Xiao_c3_Mesh_RID_Scanner_WiFi)
 Sends drone detection messages include ID, RSSI, MAC, Operator ID, Location and more.
 
-
-### Esptool Dependencies & Setup
-
-```bash
-# Install required packages
-sudo apt-get update
-sudo apt-get install -y git python3 python3-pip wget
-
-# Install Python dependencies
-pip3 install esptool pyserial
-```
-
-### Flashing 
-
-```bash
-# Download the script
-wget https://raw.githubusercontent.com/lukeswitz/T-Halow/refs/heads/wifi_rid_mesh/firmware/firmware_Xiao_c3_Mesh_RID_Scanner_WiFi/flashDJI.sh
-
-# Make executable
-chmod +x flashDJI.sh
-```
-- Plug in your esp32
-
-# Run the script
-  ```
-./flashDJI.sh
-   ```
- 
-Follow the on-screen prompts. 
-That’s it! The script will get your board flashed and running. 
-
-> [!IMPORTANT]
-> Power cycle the board after flashing to ensure no issues with the Heltec. 
 
 ## Configure Mesh Node
 
