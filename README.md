@@ -7,11 +7,14 @@
 *Hackster.io writeup/instructions
 [Mesh-Detect](https://www.hackster.io/colonelpanic/mesh-detect-549cbe)*
 
+
 *Mesh Detect board:
 [Tindie](https://www.tindie.com/products/colonel_panic/mesh-detect-2/)*
 
+
 *Mesh Detect flasher by 
 [Luke Switzer](https://github.com/lukeswitz/T-Halow/blob/96936fd8c1d79d25ee19c263b13defecff89b3c5/firmware/ColonelPanicWiFiRID/Readme.md)*
+
 
 ## Mesh Detect Firmwares
 
