@@ -18,7 +18,7 @@ Alert when specific OUI(s) is seen by the Bluetooth scanner. Flash via Aurduino 
 - [Deepwoods Device Detection](https://github.com/colonelpanichacks/deepwoods_device_detection)
 Scan WiFi and BT to form a baseline and alert to new devices. Flash via Aurduino IDE. 
 
-- [WiFi Drone ID Detection FW](https://github.com/lukeswitz/T-Halow/tree/wifi_rid_mesh/firmware/firmware_Xiao_c3_Mesh_RID_Scanner_WiFi)
+- [WiFi Drone ID Detection FW](https://github.com/lukeswitz/T-Halow/tree/wifi_rid_mesh/firmware/firmware_Xiao_c3_Mesh_RID_Scanner_WiFi/seeed_xiao_esp32c3)
 Sends drone detection messages include ID, RSSI, MAC, Operator ID, Location and more.
 
 
