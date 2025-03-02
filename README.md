@@ -3,6 +3,7 @@
   <img src="https://raw.githubusercontent.com/lukeswitz/T-Halow/refs/heads/master/firmware/ColonelPanicWiFiRID/img/art_purps.svg" alt="T-Halow WiFi RID Image" width="100%" max-width="600px" />
 </p>
 
+## Resources
 *Hackster.io writeup/instructions
 [Mesh-Detect](https://www.hackster.io/colonelpanic/mesh-detect-549cbe)*
 
