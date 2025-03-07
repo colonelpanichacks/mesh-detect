@@ -20,7 +20,7 @@
 
 - [ESP32 OUI Sniffer](https://github.com/colonelpanichacks/esp32-oui-sniffer/tree/Xiao-esp32-c3-serial)
 Alert when specific OUI(s) is seen by the Bluetooth scanner. Flash via Aurduino IDE. 
-  - [Privacy Version](https://github.com/lukeswitz/esp32-oui-sniffer/blob/Xiao-esp32-c3-serial/meshdetect%20_privacy.ino) with preset OUIs
+  - [Privacy Version](https://github.com/lukeswitz/esp32-oui-sniffer/blob/Xiao-esp32-c3-serial/meshdetect__privacy.ino) with preset OUIs
 
 - [Deepwoods Device Detection](https://github.com/colonelpanichacks/deepwoods_device_detection)
 Scan WiFi and BT to form a baseline and alert to new devices. Flash via Aurduino IDE. 
