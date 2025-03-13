@@ -12,10 +12,6 @@
 [Tindie](https://www.tindie.com/products/colonel_panic/mesh-detect-2/)*
 
 
-*Mesh Detect flasher by 
-[Luke Switzer](https://github.com/lukeswitz/T-Halow/blob/96936fd8c1d79d25ee19c263b13defecff89b3c5/firmware/ColonelPanicWiFiRID/Readme.md)*
-
-
 ## Mesh Detect Firmwares
 
 - [ESP32 OUI Sniffer](https://github.com/colonelpanichacks/esp32-oui-sniffer/tree/Xiao-esp32-c3-serial)
@@ -25,7 +21,7 @@ Alert when specific OUI(s) is seen by the Bluetooth scanner. Flash via Aurduino 
 - [Deepwoods Device Detection](https://github.com/colonelpanichacks/deepwoods_device_detection)
 Scan WiFi and BT to form a baseline and alert to new devices. Flash via Aurduino IDE. 
 
-- [WiFi Drone ID Detection FW](https://github.com/lukeswitz/T-Halow/tree/wifi_rid_mesh/firmware/firmware_Xiao_c3_Mesh_RID_Scanner_WiFi/seeed_xiao_esp32c3)
+- [WiFi Drone ID Detection FW](https://github.com/colonelpanichacks/wifi-rid-to-mesh)
 Sends drone detection messages include ID, RSSI, MAC, Operator ID, Location and more.
 
 
