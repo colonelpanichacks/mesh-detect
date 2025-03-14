@@ -8,7 +8,7 @@
 [Mesh-Detect](https://www.hackster.io/colonelpanic/mesh-detect-549cbe)*
 
 
-## Mesh Detect board:
+Mesh Detect board can be found below on my Tindie Store:
 [mesh-detect board](https://www.tindie.com/products/colonel_panic/mesh-detect-2)
 
 <a href="https://www.tindie.com/stores/colonel_panic/?ref=offsite_badges&utm_source=sellers_colonel_panic&utm_medium=badges&utm_campaign=badge_large">
