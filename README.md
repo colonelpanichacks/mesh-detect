@@ -8,8 +8,8 @@
 [Mesh-Detect](https://www.hackster.io/colonelpanic/mesh-detect-549cbe)*
 
 
-Mesh Detect board:
-[mesh-detect board](https://www.tindie.com/products/colonel_panic/mesh-detect-2/]
+## Mesh Detect board:
+[mesh-detect board](https://www.tindie.com/products/colonel_panic/mesh-detect-2)
 
 <a href="https://www.tindie.com/stores/colonel_panic/?ref=offsite_badges&utm_source=sellers_colonel_panic&utm_medium=badges&utm_campaign=badge_large">
     <img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-larges.png" alt="I sell on Tindie" width="200" height="104">
