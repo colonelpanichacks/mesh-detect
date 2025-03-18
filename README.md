@@ -19,7 +19,7 @@ Mesh Detect board can be found on my Tindie Store:
 
 ## Mesh Detect Firmwares
 
-- [ESP32 OUI Sniffer](https://github.com/colonelpanichacks/esp32-oui-sniffer/tree/Xiao-esp32-c3-serial)
+- [Cam Sniffer](https://github.com/colonelpanichacks/esp32-oui-sniffer/tree/Xiao-esp32-c3-serial)
 Alert when specific OUI(s) is seen by the Bluetooth scanner. Flash via Aurduino IDE. 
   - [Privacy Version](https://github.com/lukeswitz/esp32-oui-sniffer/blob/Xiao-esp32-c3-serial/meshdetect__privacy.ino) with preset OUIs
 
