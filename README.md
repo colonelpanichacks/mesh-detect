@@ -4,31 +4,31 @@
 </p>
 
 ## Resources
-*Hackster.io writeup/instructions
+*Hackster.io writeup/instructions  
 [Mesh-Detect](https://www.hackster.io/colonelpanic/mesh-detect-549cbe)*
 
-
-Mesh Detect board can be found on my Tindie Store:
+Mesh Detect board can be found on my Tindie Store:  
 [mesh-detect board](https://www.tindie.com/products/colonel_panic/mesh-detect-2)
 
 <a href="https://www.tindie.com/stores/colonel_panic/?ref=offsite_badges&utm_source=sellers_colonel_panic&utm_medium=badges&utm_campaign=badge_large">
     <img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-larges.png" alt="I sell on Tindie" width="200" height="104">
 </a>
 
-
-
 ## Mesh Detect Firmwares
 
-- [Cam Sniffer](https://github.com/colonelpanichacks/esp32-oui-sniffer/tree/Xiao-esp32-c3-serial)
-Alert when specific OUI(s) is seen by the Bluetooth scanner. Flash via Aurduino IDE. 
+- [Cam Sniffer](https://github.com/colonelpanichacks/esp32-oui-sniffer/tree/Xiao-esp32-c3-serial)  
+  Alert when specific OUI(s) is seen by the Bluetooth scanner. Flash via Aurduino IDE.  
   - [Privacy Version](https://github.com/lukeswitz/esp32-oui-sniffer/blob/Xiao-esp32-c3-serial/meshdetect__privacy.ino) with preset OUIs
 
-- [Deepwoods Device Detection](https://github.com/colonelpanichacks/deepwoods_device_detection)
-Scan WiFi and BT to form a baseline and alert to new devices. Flash via Aurduino IDE. 
+- [Deepwoods Device Detection](https://github.com/colonelpanichacks/deepwoods_device_detection)  
+  Scan WiFi and BT to form a baseline and alert to new devices. Flash via Aurduino IDE.
 
-- [Drone Remote id to Meshtastic](https://github.com/colonelpanichacks/wifi-rid-to-mesh)
-Sends drone detection messages include ID, RSSI, MAC, Operator ID, Location and more.
+### Drone RemoteID to Mesh
+- [BLE RemoteID to Mesh](https://github.com/colonelpanichacks/BLE-RemoteID-to-mesh)  
+  Sends drone detection messages via Bluetooth Low Energy to the mesh network.
 
+- [WiFi RemoteID to Mesh](https://github.com/colonelpanichacks/WiFi-RemoteID-to-mesh)  
+  Sends drone detection messages via WiFi scanning to the mesh network.
 
 ## Configure Mesh Node
 
@@ -44,13 +44,12 @@ Ensure both the heltec and your receiver node are on the same channel. Set the p
 
 ![image](https://github.com/user-attachments/assets/1fee0617-447a-454c-ac78-10243ec7da5c)
 
-
 ## Troubleshooting
 
 - If your esp32 is not being detected or giving any errors, hold the boot button and plug in the device.
-- Make sure you are using a c3 esp32 module. 
+- Make sure you are using a c3 esp32 module.
 
-Credit: Firmware for RID and flasher based on work by cemaxecuter aka alphafox02. Modded with help of Colonel Panic. 
+Credit: Firmware for RID and flasher based on work by cemaxecuter aka alphafox02. Modded with help of Colonel Panic.
 
 - Original alphafox RID T-halow: https://github.com/alphafox02/T-Halow
 - Thank you to Luke Switzer for the work on this project: https://github.com/lukeswitz/
