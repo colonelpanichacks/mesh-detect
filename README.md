@@ -47,7 +47,7 @@ Ensure both the heltec and your receiver node are on the same channel. Set the p
 ## Troubleshooting
 
 - If your esp32 is not being detected or giving any errors, hold the boot button and plug in the device.
-- Make sure you are using a c3 esp32 module.
+- Make sure you are using the appropriate esp32 module outlined in each firmware documentation.
 
 Credit: Firmware for RID and flasher based on work by cemaxecuter aka alphafox02. Modded with help of Colonel Panic.
 
