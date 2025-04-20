@@ -1,7 +1,7 @@
 # Mesh Detect Flasher  
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/lukeswitz/T-Halow/refs/heads/master/firmware/ColonelPanicWiFiRID/img/art_purps.svg" alt="T-Halow WiFi RID Image" width="70%" />
+  <img src="https://github.com/colonelpanichacks/mesh-detect/blob/a4209668cd960348da64ab6cd9e2beb3251539a6/mesh.png" alt="T-Halow WiFi RID Image" width="70%" />
 </p>
 
 ## About  
