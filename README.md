@@ -24,10 +24,10 @@ Mesh Detect board can be found on my Tindie Store:
   Scan WiFi and BT to form a baseline and alert to new devices. Flash via Aurduino IDE.
 
 ### Drone RemoteID to Mesh
-- [BLE RemoteID to Mesh](https://github.com/colonelpanichacks/BLE-RemoteID-to-mesh)  
+- [BLE RemoteID to Mesh](https://github.com/colonelpanichacks/BLE-RemoteID)  
   Sends drone detection messages via Bluetooth Low Energy to the mesh network.
 
-- [WiFi RemoteID to Mesh](https://github.com/colonelpanichacks/WiFi-RemoteID-to-mesh)  
+- [WiFi RemoteID to Mesh](https://github.com/colonelpanichacks/WiFi-RemoteID)  
   Sends drone detection messages via WiFi scanning to the mesh network.
 
 ## Configure Mesh Node
