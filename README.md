@@ -9,6 +9,11 @@
 </pre>
 </p>
 
+<p align="center">
+  <img src="mesh.png"
+       alt="hack the planet"
+       width="75%" />
+</p>
 ## Resources
 *Hackster.io writeup/instructions  
 [Mesh-Detect](https://www.hackster.io/colonelpanic/mesh-detect-549cbe)*
