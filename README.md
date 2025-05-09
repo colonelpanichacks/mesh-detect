@@ -1,13 +1,5 @@
 <p align="center">
-<pre>
-   _____                .__      ________          __                 __   
-  /     \   ____   _____|  |__   \______ \   _____/  |_  ____   _____/  |_ 
- /  \ /  \_/ __ \ /  ___/  |  \   |    |  \_/ __ \   __\/ __ \_/ ___\   __\
-/    Y    \  ___/ \___ \|   Y  \  |    `   \  ___/|  | \  ___/\  \___|  |  
-\____|__  /\___  >____  >___|  / /_______  /\___  >__|  \___  >\___  >__|  
-        \/     \/     \/     \/          \/     \/          \/     \/      
-
-</pre>
+  <img src="header.svg" alt="Mesh Detect ASCII Banner"/>
 </p>
 <p align="center">
 <img src="https://github.com/colonelpanichacks/mesh-detect/blob/a4209668cd960348da64ab6cd9e2beb3251539a6/mesh.png" alt="hack the planet" width="100%" max-width="600px" />
