@@ -11,7 +11,7 @@
 
 <img src="mesh.png" alt="hack the planet" width="75%" />
 
-<p>text here aligns to the center of its box now!</p>
+
 
 </div>
 ## Resources
