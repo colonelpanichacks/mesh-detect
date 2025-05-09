@@ -25,10 +25,10 @@ Mesh Detect board can be found on my Tindie Store:
 
 ### Drone RemoteID to Mesh
 - [BLE RemoteID to Mesh](https://github.com/colonelpanichacks/BLE-RemoteID)  
-  Sends drone detection messages via Bluetooth Low Energy to the mesh network.
+  Sends drone detection messages via Bluetooth Low Energy to the mesh network. Flash with Platformio
 
-- [WiFi RemoteID to Mesh](https://github.com/colonelpanichacks/WiFi-RemoteID)  
-  Sends drone detection messages via WiFi scanning to the mesh network.
+- [WiFi RemoteID to Mesh](https://github.com/colonelpanichacks/WiFi-RemoteID)  - This repo contains the dual core firmwares for esp32 c6, for both ble and wifi rid detection/decoding
+  Sends drone detection messages via WiFi scanning to the mesh network. Flash with Platformio
 
 ## Configure Mesh Node
 
