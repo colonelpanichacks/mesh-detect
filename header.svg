@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="800" height="150" viewBox="0 0 800 150" preserveAspectRatio="xMidYMid meet">
   <defs>
     <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%"   stop-color="pink"/>
@@ -6,11 +8,23 @@
       <stop offset="100%" stop-color="lightblue"/>
     </linearGradient>
   </defs>
-  <text x="0" y="40" font-family="monospace" font-size="32" fill="url(#grad)">
-    _____                .__      ________          __                 __   
+
+  <text x="0" y="30" font-family="monospace" font-size="24" fill="url(#grad)">
+   _____                .__      ________          __                 __   
   </text>
-  <text x="0" y="80" font-family="monospace" font-size="32" fill="url(#grad)">
-   /     \   ____   _____|  |__   \______ \   _____/  |_  ____   _____/  |_ 
+  <text x="0" y="60" font-family="monospace" font-size="24" fill="url(#grad)">
+  /     \   ____   _____|  |__   \______ \   _____/  |_  ____   _____/  |_ 
   </text>
-  <!-- etc… each line of your ASCII as its own <text> element -->
+  <text x="0" y="90" font-family="monospace" font-size="24" fill="url(#grad)">
+ /  \ /  \_/ __ \ /  ___/  |  \   |    `   \  ___/|  | \  ___/\  \___|  |  
+  </text>
+  <text x="0" y="120" font-family="monospace" font-size="24" fill="url(#grad)">
+/    Y    \  ___/ \___ \|   Y  \  |    `   \  ___/|  | \  ___/\  \___|  |  
+  </text>
+  <text x="0" y="150" font-family="monospace" font-size="24" fill="url(#grad)">
+\____|__  /\___  >____  >___|  / /_______  /\___  >__|  \___  >\___  >__|  
+  </text>
+  <text x="0" y="180" font-family="monospace" font-size="24" fill="url(#grad)">
+        \/     \/     \/     \/          \/     \/          \/     \/      
+  </text>
 </svg>
