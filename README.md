@@ -1,4 +1,5 @@
-<p align="center">
+<div align="center">
+
 <pre>
    _____                .__      ________          __                 __   
   /     \   ____   _____|  |__   \______ \   _____/  |_  ____   _____/  |_ 
@@ -7,13 +8,12 @@
 \____|__  /\___  >____  >___|  / /_______  /\___  >__|  \___  >\___  >__|  
         \/     \/     \/     \/          \/     \/          \/     \/      
 </pre>
-</p>
 
-<p align="center">
-  <img src="mesh.png"
-       alt="hack the planet"
-       width="75%" />
-</p>
+<img src="mesh.png" alt="hack the planet" width="75%" />
+
+<p>text here aligns to the center of its box now!</p>
+
+</div>
 ## Resources
 *Hackster.io writeup/instructions  
 [Mesh-Detect](https://www.hackster.io/colonelpanic/mesh-detect-549cbe)*
