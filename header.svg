@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg"
-     width="100%" viewBox="0 0 1000 140" preserveAspectRatio="xMidYMid meet">
+     width="100%" viewBox="0 0 1000 120" preserveAspectRatio="xMidYMid meet">
   <defs>
     <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="pink"/>
-      <stop offset="50%"  stop-color="purple"/>
+      <stop offset="0%" stop-color="pink"/>
+      <stop offset="50%" stop-color="purple"/>
       <stop offset="100%" stop-color="lightblue"/>
     </linearGradient>
   </defs>
 
-  <text font-family="monospace" font-size="16" fill="url(#grad)">
-    <tspan x="0"   y="18">   _____                .__      ________          __                 __   </tspan>
-    <tspan x="0"   y="36">  /     \   ____   _____|  |__   \______ \   _____/  |_  ____   _____/  |_ </tspan>
-    <tspan x="0"   y="54"> /  \ /  \_/ __ \ /  ___/  |  \   |    `   \  ___/|  | \  ___/\  \___|  |  </tspan>
-    <tspan x="0"   y="72">/    Y    \  ___/ \___ \|   Y  \  |    `   \  ___/|  | \  ___/\  \___|  |  </tspan>
-    <tspan x="0"   y="90">\____|__  /\___  >____  >___|  / /_______  /\___  >__|  \___  >\___  >__|  </tspan>
-    <tspan x="0"   y="108">        \/     \/     \/     \/          \/     \/          \/     \/      </tspan>
+  <text xml:space="preserve"
+        x="0" y="16"
+        font-family="monospace"
+        font-size="16"
+        fill="url(#grad)">
+   _____                .__      ________          __                 __   
+  /     \   ____   _____|  |__   \______ \   _____/  |_  ____   _____/  |_ 
+ /  \ /  \_/ __ \ /  ___/  |  \   |    `   \  ___/|  | \  ___/\  \___|  |  
+/    Y    \  ___/ \___ \|   Y  \  |    `   \  ___/|  | \  ___/\  \___|  |  
+\____|__  /\___  >____  >___|  / /_______  /\___  >__|  \___  >\___  >__|  
+        \/     \/     \/     \/          \/     \/          \/     \/      
   </text>
 </svg>
