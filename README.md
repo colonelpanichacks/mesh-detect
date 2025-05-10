@@ -9,7 +9,7 @@
         \/     \/     \/     \/          \/     \/          \/     \/      
 </pre>
 
-<img src="mesh.png" alt="hack the planet" width="75%" />
+<img src="mesh.png" alt="hack the planet" width="50%" />
 
 
 
