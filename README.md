@@ -133,9 +133,13 @@ if ((Get-ExecutionPolicy -Scope CurrentUser) -ne "RemoteSigned") {
 ## 3D Prints
 
 * **Mesh Detect Enclosure**
-  STL files to 3D print a custom enclosure for the Mesh Detect board.
+  Custom enclosure for the Mesh Detect board by Luke Switzer.
   Repository: [lukeswitz/3D-Prints - Mesh-Detect](https://github.com/lukeswitz/3D-Prints/tree/main/Mesh-Detect)
   Thanks to Luke Switzer for his work on the repository and the 3D print design!
+  
+* **Mesh Detect SMA mount clip**
+  SMA mount clip for the Mesh Destect board by OrdoOuroboros
+  https://www.printables.com/model/1294183-mesh-detect-board-sma-mount
 
 ## Project Helpers
 
