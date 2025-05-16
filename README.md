@@ -1,4 +1,4 @@
-<p align="center"> # `Mesh Detect Flasher and repo links` </p>
+<h1 align="center">Mesh Detect Flasher</h1>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/lukeswitz/WiFi-RemoteID/refs/heads/main/eyepurple.svg" alt="T-Halow WiFi RID Image" width="70%" />
