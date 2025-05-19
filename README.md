@@ -156,7 +156,7 @@ Ensure both the heltec and your receiver node are on the same channel. Set the p
 * Text message mode
 * Pins defined RX/TX 19/20
 
-![image](https://github.com/user-attachments/assets/1fee0617-447a454c-ac78-10243ec7da5c)
+
 
 ## Troubleshooting
 
