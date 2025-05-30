@@ -105,11 +105,6 @@ if ((Get-ExecutionPolicy -Scope CurrentUser) -ne "RemoteSigned") {
 
 * Flash via **Arduino IDE**.
 
-* 🔒 **[Privacy Sniffer](https://github.com/lukeswitz/esp32-oui-sniffer/blob/Xiao-esp32-c3-serial/meshdetect__privacy.ino)**
-
-* Preset OUIs for Floc cameras, known snoops and other privacy invaders.
-
-* Flash via `meshFlasher.sh`
 
 ### 2. 🌲 Deepwoods Device Detection
 
@@ -131,11 +126,6 @@ if ((Get-ExecutionPolicy -Scope CurrentUser) -ne "RemoteSigned") {
 * Flash via `meshFlasher.sh`
 
 ## 3D Prints
-
-* **Mesh Detect Enclosure**
-  Custom enclosure for the Mesh Detect board by Luke Switzer.
-  Repository: [lukeswitz/3D-Prints - Mesh-Detect](https://github.com/lukeswitz/3D-Prints/tree/main/Mesh-Detect)
-  Thanks to Luke Switzer for his work on the repository and the 3D print design!
   
 * **Mesh Detect SMA mount clip**
   SMA mount clip for the Mesh Destect board by OrdoOuroboros
