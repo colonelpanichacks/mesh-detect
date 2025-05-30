@@ -63,7 +63,7 @@ Ensure both the heltec and your receiver node are on the same channel. Set the p
 ## Troubleshooting
 
 * If your esp32 is not being detected or giving any errors, hold the boot button and plug in the device.
-* Make sure you are using a c3 esp32 module.
+* Make sure you are using a Xiao esp32-S3 or c3 (all future dev is moving to the s3).
 
 ## Resources
 
