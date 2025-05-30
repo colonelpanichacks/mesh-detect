@@ -1,7 +1,7 @@
 <h1 align="center">Mesh Detect</h1>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/lukeswitz/WiFi-RemoteID/refs/heads/main/eyepurple.svg" alt="T-Halow WiFi RID Image" width="70%" />
+  <img src="mesh.png" alt="eye" width="70%" />
 </p>
 
 
