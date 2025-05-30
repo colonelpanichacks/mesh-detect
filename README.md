@@ -23,7 +23,7 @@
 * [Deepwoods Device Detection](https://github.com/colonelpanichacks/deepwoods_device_detection)
 * Scan WiFi and BT to form a baseline and alert to new devices.
 * Detects and alerts on **new** devices.
-* Flash via `meshFlasher.sh`
+* Flash via `PlatformIO`
 
 ### 3. 🛸 Drone Remote ID to Meshtastic - BT and WiFi
 
@@ -35,7 +35,7 @@
 
 * WebUI plots drones, pilots, looks up FAA IDs and more. Increase range using node-mode firmware on multiple devices. TAK, Serial and ZMQ support.
 
-* Flash via `meshFlasher.sh`
+* Flash via `PlatformIO`
 
 ## 3D Prints
   
