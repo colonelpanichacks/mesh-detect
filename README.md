@@ -1,97 +1,9 @@
-<h1 align="center">Mesh Detect Flasher</h1>
+<h1 align="center">Mesh Detect</h1>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/lukeswitz/WiFi-RemoteID/refs/heads/main/eyepurple.svg" alt="T-Halow WiFi RID Image" width="70%" />
 </p>
 
-## About
-
-* Easily flash different firmware onto the **Colonel Panic Mesh Detect Board.**
-* An automatic `esptool.py` flasher, no IDE required.
-* Options for S3, C6 and C3 Xiao ESP32 variants
-
----
-
-✅ shasum: `d8d9686e430d3c4f3e0e2a94363194933d72e3b1`
-
-# Flashing Firmware
-
-> \[!NOTE]
->
-> * Latest Esptool is automatically downloaded to script directory if not on the sytem
-> * Firmware binaries are replaced to ensure they're up-to-date.
-
-## A. Linux & macOS
-
-1. Download & Execute
-
-```bash
-# Install required packages (if needed)
-sudo apt-get update
-sudo apt-get install -y git python3 python3-pip wget
-pip3 install esptool pyserial
-
-# Download & run flasher
-wget https://raw.githubusercontent.com/lukeswitz/mesh-detect/refs/heads/main/meshFlasher.sh
-
-# Make executable & run
-chmod +x meshFlasher.sh
-./meshFlasher.sh
-```
-
-2. Plug in your **ESP32** via USB. Follow the on-screen prompts. Be sure to plug into the Xiao esp32 and not the Heltec USB.
-
-## B. Windows (Powershell)
-
-```powershell
-# Ensure winget is available
-if (-Not (Get-Command winget)) {
-    Write-Warning "winget is not available. Please install it first."
-    exit 1
-}
-```
-
-```powershell
-# Install required packages
-winget install Gnu.Git
-winget install Python.Python
-winget install Python.Pip
-```
-
-```powershell
-# Update pip and install Python modules
-python -m pip install --upgrade pip
-python -m pip install esptool pyserial
-```
-
-```powershell
-# Download the script and verify its contents
-$scriptUrl = "https://raw.githubusercontent.com/lukeswitz/mesh-detect/refs/heads/main/meshFlasher.sh"
-$scriptPath = "meshFlasher.sh"
-
-# Download the script
-Invoke-WebRequest -Uri $scriptUrl -OutFile $scriptPath
-
-# Optional: Verify the script contents before running it
-# You can open the file in a text editor to inspect it
-notepad $scriptPath
-```
-
-```powershell
-# Run the script only if you trust it
-Read-Host "Press Enter to run the script (Ctrl+C to cancel)"
-
-# Set execution policy only for the current user and only if necessary
-if ((Get-ExecutionPolicy -Scope CurrentUser) -ne "RemoteSigned") {
-    Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned -Force
-}
-```
-
-2. Run the script
-   `.\meshFlasher.sh`
-
-> \[!IMPORTANT]
-> Power cycle the board after flashing to ensure no issues with the Heltec.
 
 ## Firmware Options
 
