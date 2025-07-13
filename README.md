@@ -67,9 +67,6 @@ Ensure both the heltec and your receiver node are on the same channel. Set the p
 
 ## Resources
 
-*Hackster.io writeup/instructions*
-[Mesh-Detect](https://www.hackster.io/colonelpanic/mesh-detect-549cbe)
-
 Mesh Detect board can be found on my Tindie Store:
 [mesh-detect board](https://www.tindie.com/products/colonel_panic/mesh-detect-2)
 
