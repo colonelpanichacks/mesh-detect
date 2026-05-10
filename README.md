@@ -12,7 +12,7 @@
 
 **ESP32-S3 + Meshtastic LoRa detection platform**
 
-[![Tindie](https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-larges.png)](https://www.tindie.com/stores/colonel_panic/?ref=offsite_badges&utm_source=sellers_colonel_panic&utm_medium=badges&utm_campaign=badge_large)
+[**colonelpanic.tech**](https://colonelpanic.tech) — Hardware store, kits, and PCBs
 
 </div>
 
@@ -22,9 +22,31 @@
 
 | | Link |
 |---|---|
-| **Mesh-Detect v2 Board** | [Tindie Store](https://www.tindie.com/products/colonel_panic/mesh-detect-2) |
-| **PCB Only** | [Tindie Store](https://www.tindie.com/products/colonel_panic/mesh-detect-pcb-only/) |
+| **Mesh-Detect v2 Board** | [colonelpanic.tech](https://colonelpanic.tech) |
+| **PCB Only** | [colonelpanic.tech](https://colonelpanic.tech) |
 | **Build Guide** | [Hackster.io](https://www.hackster.io/colonelpanic/mesh-detect-549cbe) |
+
+---
+
+## Companion Web App — Drone Mesh Mapper
+
+Live web map that ingests Remote-ID detections from mesh-detect boards over USB serial, plots drones + pilots in real time, overlays live ADS-B air traffic, supports offline tile caching for fieldwork with no internet, and fires geofence alerts via webhooks.
+
+| | Link |
+|---|---|
+| **Repository** | [colonelpanichacks/drone-mesh-mapper](https://github.com/colonelpanichacks/drone-mesh-mapper) |
+| **Pi installer** | One-command setup on Raspberry Pi |
+| **Stack** | Python (Flask + SocketIO) + Leaflet web UI |
+
+What it does:
+
+- Real-time drone + pilot markers from Remote-ID broadcasts
+- Live ADS-B air traffic overlay (adsb.lol, adsb.fi, airplanes.live, OpenSky, dump1090/readsb, Beast TCP)
+- Offline map tile caching with MBTiles — fully usable without internet
+- Geofencing with per-fence colors, drone/aircraft tag filters, per-fence webhooks
+- OSINT classification for both drones (user-tagged) and aircraft (military / government / police / commercial / private)
+- KML / CSV / cumulative session exports
+- Onboarding wizard, no-emoji UI, mobile-responsive
 
 ---
 
@@ -42,6 +64,7 @@
 |----------|-------------|------------|
 | [BLE RemoteID to Mesh](https://github.com/colonelpanichacks/BLE-RemoteID) | Drone detection via Bluetooth Low Energy, alerts sent to mesh network. | PlatformIO |
 | [WiFi RemoteID to Mesh](https://github.com/colonelpanichacks/WiFi-RemoteID) | Drone detection via WiFi scanning. Dual core firmwares for ESP32-C6, supports both BLE and WiFi RID. | PlatformIO |
+| [Drone Mesh Mapper firmware](https://github.com/colonelpanichacks/drone-mesh-mapper) | Dual-core ESP32-S3 firmware variants (remote detection node + home dedup/relay node) bundled with the web app. Supports ESP32-S3, ESP32-C5 5 GHz UNII-3, Heltec V3. | PlatformIO |
 
 ---
 
