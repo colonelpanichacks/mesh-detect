@@ -62,8 +62,6 @@ What it does:
 ### Drone Remote ID to Mesh
 | Firmware | Description | Flash With |
 |----------|-------------|------------|
-| [BLE RemoteID to Mesh](https://github.com/colonelpanichacks/BLE-RemoteID) | Drone detection via Bluetooth Low Energy, alerts sent to mesh network. | PlatformIO |
-| [WiFi RemoteID to Mesh](https://github.com/colonelpanichacks/WiFi-RemoteID) | Drone detection via WiFi scanning. Dual core firmwares for ESP32-C6, supports both BLE and WiFi RID. | PlatformIO |
 | [Drone Mesh Mapper firmware](https://github.com/colonelpanichacks/drone-mesh-mapper) | Dual-core ESP32-S3 firmware variants (remote detection node + home dedup/relay node) bundled with the web app. Supports ESP32-S3, ESP32-C5 5 GHz UNII-3, Heltec V3. | PlatformIO |
 
 ---
