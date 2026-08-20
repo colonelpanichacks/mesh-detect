@@ -12,8 +12,6 @@
 
 ### ESP32-S3 + Meshtastic LoRa detection platform
 
-[![Tindie](https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-larges.png)](https://www.tindie.com/stores/colonel_panic/?ref=offsite_badges&utm_source=sellers_colonel_panic&utm_medium=badges&utm_campaign=badge_large)
-
 </div>
 
 ---
@@ -23,8 +21,6 @@
 | Where | What |
 |---|---|
 | [colonelpanic.tech](https://colonelpanic.tech) | Full kits, PCBs, pre-flashed boards |
-| [Tindie: Mesh-Detect v2](https://www.tindie.com/products/colonel_panic/mesh-detect-2) | Assembled v2 board |
-| [Tindie: PCB Only](https://www.tindie.com/products/colonel_panic/mesh-detect-pcb-only/) | Bare PCB |
 | [Hackster.io build guide](https://www.hackster.io/colonelpanic/mesh-detect-549cbe) | DIY assembly |
 
 ---
