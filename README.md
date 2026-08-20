@@ -54,6 +54,15 @@ Live web map that ingests Remote-ID detections from Mesh-Detect boards over USB 
 
 ## Firmwares
 
+### Web Flashers
+
+No install — plug the board in, open one of these in Chrome / Edge / Opera, click Flash.
+
+| Flasher | What it flashes |
+|---|---|
+| [**OUI-Spy Unified Blue**](https://colonelpanichacks.github.io/oui-spy-unified-blue/) | Six-mode surveillance firmware in one build: Detector, Foxhunter, Flock-You WiFi, Sky Spy, PCAP, BLE Sniff. |
+| [**Drone Mesh Mapper**](https://colonelpanichacks.github.io/drone-mesh-mapper/flasher/) | Standard Dualcore (single detector board) **and** Node Mode — a Remote + Home pair for multi-node deployments with dedup at the base station. |
+
 ### Surveillance Detection
 
 | Firmware | What it does | Toolchain |
@@ -66,7 +75,7 @@ Live web map that ingests Remote-ID detections from Mesh-Detect boards over USB 
 
 | Firmware | What it does | Toolchain |
 |---|---|---|
-| [Drone Mesh Mapper firmware](https://github.com/colonelpanichacks/drone-mesh-mapper) | Dual-core ESP32-S3 / ESP32-C5 / Heltec V3 firmware bundled with the web app. Remote detection node + home dedup/relay node, BLE + WiFi RID. | PlatformIO |
+| [Drone Mesh Mapper firmware](https://github.com/colonelpanichacks/drone-mesh-mapper) | Dual-core ESP32-S3 / ESP32-C5 / Heltec V3 firmware bundled with the web app. Remote detection node + home dedup/relay node, BLE + WiFi RID. | [Web Flasher](https://colonelpanichacks.github.io/drone-mesh-mapper/flasher/) or PlatformIO |
 
 ---
 
