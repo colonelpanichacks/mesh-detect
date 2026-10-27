@@ -105,3 +105,7 @@ Made an enclosure? PR to add it.
 Remote-ID firmware based on work by [cemaxecuter / alphafox02](https://github.com/alphafox02/T-Halow). Thanks to [Luke Switzer](https://github.com/lukeswitz/) for ongoing contributions.
 
 Enclosures by Colonel Panic, [prestia](https://www.printables.com/model/1623378-modular-mesh-detect-case), and [Nitekry D Paul](https://www.printables.com/model/1294183-mesh-detect-board-sma-mount).
+
+## License
+
+MIT, see [LICENSE](LICENSE).
